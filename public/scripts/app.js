@@ -128,6 +128,7 @@ $(document).ready(function() {
                 data: $(this).serialize(),
                 method: 'POST',
                 success: function(data) {
+                 $(".counter").html("140");
                     loadTweets();
                 }
             })
