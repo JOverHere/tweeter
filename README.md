@@ -16,8 +16,4 @@ This repository is the starter code for the project: Students will fork and clon
 - Express
 - Node 5.10.x or above
 
-
-<p align=“center”>
- <img src="Screen Shot 2018-09-14 at 1.21.17 PM.png” width=“350” title=“hover text”>
- <img src=“” width=“350" alt=“accessibility text”>
-</p>
+![Screenshot1](https://github.com/JOverHere/tweeter/blob/master/screenshots/Screen%20Shot%202018-09-14%20at%201.21.17%20PM.png)
