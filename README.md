@@ -15,3 +15,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+
+<p align=“center”>
+ <img src="” width=“350” title=“hover text”>
+ <img src=“” width=“350" alt=“accessibility text”>
+</p>
