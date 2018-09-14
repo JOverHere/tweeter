@@ -17,3 +17,4 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 ![Screenshot1](https://github.com/JOverHere/tweeter/blob/master/screenshots/Screen%20Shot%202018-09-14%20at%201.21.17%20PM.png)
+![Screenshot2](https://github.com/JOverHere/tweeter/blob/master/screenshots/Screen%20Shot%202018-09-14%20at%201.21.50%20PM.png)
