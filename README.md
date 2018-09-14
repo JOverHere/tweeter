@@ -18,6 +18,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 
 <p align=“center”>
- <img src="” width=“350” title=“hover text”>
+ <img src="Screen Shot 2018-09-14 at 1.21.17 PM.png” width=“350” title=“hover text”>
  <img src=“” width=“350" alt=“accessibility text”>
 </p>
