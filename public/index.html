@@ -12,21 +12,44 @@
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css"/>
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css"/>
+
 
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/app.js"></script>
+
+
+    <!-- <script>
+$(function() {
+  var $button = $('#tweet-form');
+  $button.on('click', function () {
+    console.log('Button clicked, performing ajax call...');
+    $.ajax('/tweets', { method: 'GET' })
+    .then(function (event) {
+      console.log('Success: ', event);
+      $button.replaceWith(event);
+    });
+  });
+});
+</script> -->
   </head>
 
   <body>
 
     <!-- Top nav bar (fixed) -->
+    <div class = "nav-container">
     <nav id="nav-bar">
       <img class="logo" src="/images/bird.png">
       <span class="header">Tweeter</span>
+      <span>
+      <button id="compose">Compose</button>
+    </span>
     </nav>
+  </div>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
@@ -35,11 +58,24 @@
 
       <hr class="breaker">
 
-        <form action="/tweets/" method="POST">
-          <textarea class=form  name="text" placeholder="What are you humming about?"></textarea>
+        <form id="tweet-form" action="/tweets/" method="POST">
+          <textarea class="form"  name="text" placeholder="What are you humming about?"></textarea>
           <input class="tweet" type="submit" value="Tweet">
           <span class="counter">140</span>
+          <div id="errorMessage">Error</div>
         </form>
+    </section>
+    <section id="tweets-container">
+       <!--  <article class="tweet-article">
+          <header class="header2">
+            <img class="handle-logo" src="/styles/logo.png" alt="logo">
+            <h1 class ="name-header">Billy Bob</h1>
+            <p class="handle">@billybob</p>
+          </header>
+          <p class="tweet-text"> I am the first tweet! </p>
+          <footer class="time-stamp"> 2 days ago</footer>
+        </article> -->
+
     </section>
     </main>
 

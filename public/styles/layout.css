@@ -15,10 +15,15 @@ html {
  */
 
 body {
-  margin: 0;
+
   color: #244751;
-  background-color: #eee;
-  font-family: 'Roboto', sans-serif;;
+  background: #FFAFBD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -26,11 +31,11 @@ body {
  */
 
 .container {
-  width: 450px;
+  width: 475px;
   margin: auto;
-  text-align: center;
   background-color: white;
-  padding-top: 140px;
   padding-bottom: 150px;
+  padding-top: 40px;
+
  }
 
