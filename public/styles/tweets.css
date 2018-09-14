@@ -1,71 +1,69 @@
 #tweets {
-  padding-left: 35px;
-  padding-right: 35px;
-  margin-top: 0px;
-
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 0px;
 }
 
 .tweet-article:hover {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 .tweet-article {
-  border-radius: 5px;
-  margin: 10px 35px 10px 35px;
-  border: 1px solid lightgray
-
+    border-radius: 5px;
+    margin: 10px 35px 10px 35px;
+    border: 1px solid lightgray
 }
 
 .tweet-article:hover .header2 {
-  opacity: 2;
+    opacity: 2;
 }
 
 .handle-logo {
-  width: 60px;
-  margin-top: 5px;
-  border-radius: 15px;
-  height: 55px;
-  margin-left: 10px;
-  border-radius: 5px;
-  float:left;
-  margin-bottom:20px;
+    width: 60px;
+    margin-top: 5px;
+    border-radius: 15px;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .name-header {
-  position: absolute;
-  margin-left: 80px;
-  margin-top: 5px;
-  font-size: 150%;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 150%;
 }
 
 .time-stamp {
-  border-top: 0.5px solid lightgray;
-  font-size: .9em;
-  line-height: 3em;
-  height: 3em;
-  color: gray;
-  padding-left: 12px;
+    border-top: 0.5px solid lightgray;
+    font-size: .9em;
+    line-height: 3em;
+    height: 3em;
+    color: gray;
+    padding-left: 12px;
 }
 
 .handle {
-  position: absolute;
-  right: 12px;
-  margin-top: 0px;
-  font-size: 80%;
+    position: absolute;
+    right: 12px;
+    margin-top: 0px;
+    font-size: 80%;
 }
 
 .tweet-text {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
-.header2{
-  height: 70px;
-  opacity: 0.5;
-  background-color: #e8e8e8;
-  line-height: 45px;
-  position: relative;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+.header2 {
+    height: 70px;
+    opacity: 0.5;
+    background-color: #e8e8e8;
+    line-height: 45px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
